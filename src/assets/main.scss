@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+@import "normalize.min.css";
+@import "_variables";
+
+* * :after,
+* * :before,
+* :after,
+* :before,
+:after,
+:before {
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: system, -apple-system, BlinkMacSystemFont, Segoe UI, Segoe WP, Roboto, Ubuntu, Oxygen, Cantarell,
+  Fira Sans, Helvetica Neue, Helvetica, Lucida Grande, Droid Sans, Tahoma, "Microsoft Sans Serif", sans-serif;
+}
+
+body {
+  color: $light;
+  background: $background;
+  font-family: $font;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+label {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
